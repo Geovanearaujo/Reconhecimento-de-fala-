@@ -1,0 +1,73 @@
+{
+    "documents": [
+        {
+            "id": "id__16405",
+            "sentiment": "positive",
+            "confidenceScores": {
+                "positive": 0.79,
+                "neutral": 0.21,
+                "negative": 0
+            },
+            "sentences": [
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 1,
+                        "neutral": 0,
+                        "negative": 0
+                    },
+                    "offset": 0,
+                    "length": 113,
+                    "text": "Estou gostando muito deste bootcamp, a instrutora faz um trabalho excelente deixando uma aprendizagem mais leve. ",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 39,
+                            "length": 10,
+                            "text": "instrutora",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/0/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 66,
+                            "length": 9,
+                            "text": "excelente",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.59,
+                        "neutral": 0.41,
+                        "negative": 0
+                    },
+                    "offset": 113,
+                    "length": 67,
+                    "text": "E gostaria muito de estar entre os 700 para tirar a certificação.  ",
+                    "targets": [],
+                    "assessments": []
+                }
+            ],
+            "warnings": []
+        }
+    ],
+    "errors": [],
+    "modelVersion": "2022-11-01"
+}
